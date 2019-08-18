@@ -20,7 +20,7 @@ class FourMotor:
     PWMS = [None] * 4
     PWM_Status = [False] * 4
     
-    def __init__():
+    def __init__(self):
         GPIO.cleanup()
         GPIO.setmode(GPIO.BCM)
         
